@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "mehrabmkhan" {
   name     = var.resource_group_name
   location = "westus2"
    tags = {
-    Environment = "Development"
+    Environment = "Development new"
     Team = "DevOps"
   }
 
